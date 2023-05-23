@@ -1,0 +1,23 @@
+name: foo_devtools_extension
+description: A Flutter web app for the pacakge:foo_package DevTools plugin.
+publish_to: 'none'
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.1.0-94.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  devtools_plugins:
+    path: ../../../../devtools/packages/devtools_plugins
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
